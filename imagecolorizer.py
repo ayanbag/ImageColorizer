@@ -6,7 +6,7 @@ import argparse
 
 # Argument Parser
 arg = argparse.ArgumentParser()
-arg.add_argument("-i", "--image", type=str, required=True, help="path to input black and white image")
+arg.add_argument("-i", "--image", type=str, required=True, help="Path to input black & white image")
 args = vars(arg.parse_args())
 
 # model
